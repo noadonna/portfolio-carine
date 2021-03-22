@@ -1,3 +1,33 @@
+:root {
+  --primary-color: #f5e1da;
+  --secondary-color: #f1f1f1;
+  --accent-color-light: #49beb7;
+  --accent-color-dark: #085f63;
+}
+
 body {
   background: grey;
+}
+
+.hero {
+  background: var(--primary-color);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.btn-branding {
+  background: var(--accent-color-dark);
+  color: #ffff;
+  padding: 15px 30px;
 }
