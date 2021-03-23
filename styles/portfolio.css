@@ -3,6 +3,7 @@
   --secondary-color: #f1f1f1;
   --accent-color-light: #49beb7;
   --accent-color-dark: #085f63;
+  --subtitle-font: "Courier New", Courier, monospace;
 }
 
 .hero {
@@ -17,9 +18,14 @@ h1 {
 }
 
 h2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--subtitle-font);
   font-size: 24px;
   line-height: 1;
+}
+
+h3 {
+  font-family: var(--subtitle-font);
+  font-size: 20px;
 }
 
 .btn-branding {
@@ -28,9 +34,23 @@ h2 {
   padding: 15px 30px;
 }
 
+.primary-link {
+  color: var(--accent-color-light);
+}
+
+.primary-link:hover {
+  color: var(--accent-color-dark);
+}
+
 .footer {
   background: var(--accent-color-light);
   padding: 20px 10px;
+  text-align: center;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: #000;
 }
 
 @media (max-width: 900px) {
@@ -40,6 +60,10 @@ h2 {
 
   h2 {
     font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 
   .hero {
