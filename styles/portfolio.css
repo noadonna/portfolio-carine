@@ -32,3 +32,17 @@ h2 {
   background: var(--accent-color-light);
   padding: 20px 10px;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .hero {
+    padding: 60px, 10px;
+  }
+}
