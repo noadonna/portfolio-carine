@@ -4,6 +4,7 @@
   --accent-color-light: #beceb0;
   --accent-color-dark: #34857f;
   --main-font-color: #383838;
+  --main-font: ;
   --subtitle-font: "Courier New", Courier, monospace;
 }
 
@@ -33,6 +34,15 @@ h3 {
   font-size: 20px;
 }
 
+.intro-paragraph {
+  margin: 10px 250px 10px 250px;
+}
+
+.portrait {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
 .btn-branding {
   background: var(--accent-color-dark);
   color: #ffff;
@@ -47,13 +57,17 @@ h3 {
   color: var(--accent-color-dark);
 }
 
-.footer {
+.weather-image {
+  max-width: 400px;
+}
+
+footer {
   background: var(--accent-color-light);
   padding: 20px 10px;
   text-align: center;
 }
 
-.social-links {
+footer .social-links {
   color: var(--main-font-color);
   background: #ffff;
   border-radius: 50%;
@@ -62,7 +76,7 @@ h3 {
   padding: 15px;
 }
 
-.social-links:hover {
+footer .social-links:hover {
   color: #ffff;
   background: var(--main-font-color);
 }
@@ -81,6 +95,10 @@ h3 {
   }
 
   .hero {
-    padding: 60px, 10px;
+    padding: 30px 10px;
+  }
+
+  .intro-paragraph {
+    margin: 10px 50px 10px 50px;
   }
 }
