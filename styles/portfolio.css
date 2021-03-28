@@ -3,7 +3,12 @@
   --secondary-color: #f1f1f1;
   --accent-color-light: #beceb0;
   --accent-color-dark: #34857f;
+  --main-font-color: #383838;
   --subtitle-font: "Courier New", Courier, monospace;
+}
+
+body {
+  color: var(--main-font-color);
 }
 
 .hero {
@@ -48,9 +53,18 @@ h3 {
   text-align: center;
 }
 
-.social-media-link {
-  text-decoration: none;
-  color: #000;
+.social-links {
+  color: var(--main-font-color);
+  background: #ffff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 15px;
+}
+
+.social-links:hover {
+  color: #ffff;
+  background: var(--main-font-color);
 }
 
 @media (max-width: 900px) {
