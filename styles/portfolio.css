@@ -4,12 +4,17 @@
   --accent-color-light: #beceb0;
   --accent-color-dark: #34857f;
   --main-font-color: #383838;
-  --main-font: ;
-  --subtitle-font: "Courier New", Courier, monospace;
+  --main-font: "Quicksand", sans-serif;
+  --subtitle-font: "Times New Roman", Times, serif;
+}
+
+nav {
+  padding: 0px 50px;
 }
 
 body {
   color: var(--main-font-color);
+  font-family: var(--main-font);
 }
 
 .hero {
@@ -58,7 +63,7 @@ h3 {
 }
 
 .weather-image {
-  max-width: 400px;
+  max-width: 300px;
 }
 
 footer {
