@@ -59,8 +59,21 @@ h3 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
 
-.weather-image {
-  max-width: 300px;
+.primary-link {
+  color: var(--accent-color-dark);
+}
+
+.primary-link:hover {
+  color: var(--accent-color-dark);
+}
+
+.container {
+  padding: 0 100px;
+}
+.container img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
 }
 
 footer {
@@ -109,5 +122,9 @@ footer .social-links:hover {
 
   .intro-paragraph {
     margin: 10px 50px 10px 50px;
+  }
+
+  .container {
+    padding: 0;
   }
 }
