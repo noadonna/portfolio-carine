@@ -82,6 +82,10 @@ footer {
   text-align: center;
 }
 
+footer .footer-link {
+  color: var(--main-font-color);
+}
+
 footer .social-links {
   color: var(--main-font-color);
   border: 1px solid;
